@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    height: 100vh;
+
+}
+/* header */
+ .nav-brand{
+    text-shadow:  40px 50px 55px black ;
+    font-weight: bold;
+    font-size: 2.5rem;
+    background-color: red;
+ }
+ .campus-color{
+    color: #6b7280;
+}
+.hippo-color{
+    color: #cbd5e1;
+}
+ .link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+ /* Calculator */
+.calculator{
+    background-color: rgb(6, 24, 59);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 50px rgb(255, 255, 255);
+}
+.screen{
+    width: 220px;
+    background-color: rgb(167, 226, 226);
+    font-size: 30px;
+    text-align: end;
+    padding: 4px;
+    
+}
+.buttons{
+width: 232px;
+display: flex;
+flex-wrap: wrap;
+}    
+button{
+    background-color: rgb(87, 84, 81);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+    font-size: 30px;
+}
+button:hover{
+    background-color:rgb(53, 51, 50);
+}
+button:active{
+    background-color:rgb(8, 8, 8) ;
+}
+#equals{
+    background-color: green;
+    color: black;
+}
+#equals:hover{
+    background-color: rgb(22, 206, 22);
+}
+#equals:active{
+    background-color: rgb(255, 255, 255);
+}
+#clear{
+    width: 95%;
+    background-color: rgba(212, 21, 21, 0.938);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+#clear:hover{
+    background-color: red;
+}
+#clear:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
